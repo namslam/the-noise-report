@@ -22,6 +22,7 @@ Queries the NYC 311 dataset live via the Socrata SODA API — no backend, all qu
 
 ## Stack
 - Vanilla JS + HTML + CSS
+- Built with Claude by Anthropic 
 - [NYC Open Data / Socrata SODA API](https://dev.socrata.com/)
 - [NYC GeoSearch API](https://geosearch.planninglabs.nyc)
 - Fonts: Source Serif 4, Libre Franklin (Google Fonts)

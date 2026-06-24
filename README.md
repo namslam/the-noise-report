@@ -1,7 +1,6 @@
-![The Noise Report](screenshot.png)
-
 # The Noise Report
 **Live NYC noise complaint history for any address — built on 4.9M+ official 311 records.**
+![The Noise Report](screenshot.png)
 
 ## What it does
 Type any NYC address and get an instant noise profile: a label (Quiet → Very Loud), a borough percentile ranking, a year-by-year complaint trend, and a list of the most recent 311 reports filed at or near that address.

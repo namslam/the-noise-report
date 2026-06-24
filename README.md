@@ -9,7 +9,12 @@ Type any NYC address and get an instant noise profile: a label (Quiet → Very L
 ## How it works
 Queries the NYC 311 dataset live via the Socrata SODA API — no backend, all queries run client-side. Searches first for an exact address match, then widens to the surrounding block (+/- 50 house numbers), then the full street if needed. Your score label is based on the last 12 months of complaints ranked against up to 1,000 sampled addresses in the same borough. The borough map compares all five boroughs per 100,000 residents using 2025 Census estimates.
 
+![The Noise Report](screenshot-2.png)
+
 ## Features
+
+![The Noise Report](screenshot-3.png)
+
 - Live data - pulled fresh on every search
 - 3-pass address matching with block range shown (e.g. 197–297 Center Street)
 - Borough percentile ranking against up to 1,000 comparable addresses
@@ -19,6 +24,10 @@ Queries the NYC 311 dataset live via the Socrata SODA API — no backend, all qu
 - Five-borough comparison map with per-capita ranking
 - Fully responsive - works on desktop and mobile web
 - Single HTML file, no build step, no dependencies, no backend
+
+![The Noise Report](screenshot-4.png)
+![The Noise Report](screenshot-5.png)
+
 
 ## Stack
 - Vanilla JS + HTML + CSS

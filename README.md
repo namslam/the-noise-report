@@ -13,17 +13,17 @@ Queries the NYC 311 dataset live via the Socrata SODA API — no backend, all qu
 
 ## Features
 
-![The Noise Report](screenshot-2.png)
-
 - Live data - pulled fresh on every search
 - 3-pass address matching with block range shown (e.g. 197–297 Center Street)
 - Borough percentile ranking against up to 1,000 comparable addresses
 - Year-by-year noise trend chart with peak year insight
 - Complaint type breakdown (residential, street, vehicle, etc.)
 - Most recent reports list with load-more pagination
-- Five-borough comparison map with per-capita ranking
 - Fully responsive - works on desktop and mobile web
 - Single HTML file, no build step, no dependencies, no backend
+- Five-borough comparison map with per-capita ranking
+
+![The Noise Report](screenshot-2.png)
 
 ## Stack
 - Vanilla JS + HTML + CSS
